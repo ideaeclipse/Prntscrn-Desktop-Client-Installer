@@ -1,7 +1,5 @@
 package com.installer;
 
-import com.minghao.ErrorFrame;
-import com.minghao.HttpRequests;
 import com.sun.jna.platform.win32.Advapi32Util;
 import org.json.JSONArray;
 import org.json.JSONObject;
@@ -15,6 +13,7 @@ import java.lang.reflect.Method;
 import java.net.URL;
 import java.util.LinkedList;
 import java.util.List;
+
 
 import static com.sun.jna.platform.win32.WinReg.HKEY_CURRENT_USER;
 
